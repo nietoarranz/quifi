@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/quifi/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/quifi/static/js/main.fdfe8634.chunk.js",
+    "main.js.map": "/quifi/static/js/main.fdfe8634.chunk.js.map",
+    "runtime-main.js": "/quifi/static/js/runtime-main.714ed5a0.js",
+    "runtime-main.js.map": "/quifi/static/js/runtime-main.714ed5a0.js.map",
+    "static/js/2.f5051daa.chunk.js": "/quifi/static/js/2.f5051daa.chunk.js",
+    "static/js/2.f5051daa.chunk.js.map": "/quifi/static/js/2.f5051daa.chunk.js.map",
+    "static/js/3.ffbfdbf7.chunk.js": "/quifi/static/js/3.ffbfdbf7.chunk.js",
+    "static/js/3.ffbfdbf7.chunk.js.map": "/quifi/static/js/3.ffbfdbf7.chunk.js.map",
+    "index.html": "/quifi/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/quifi/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.f5051daa.chunk.js.LICENSE.txt": "/quifi/static/js/2.f5051daa.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/quifi/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.714ed5a0.js",
+    "static/js/2.f5051daa.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.fdfe8634.chunk.js"
+  ]
+}
