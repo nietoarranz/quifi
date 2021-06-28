@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/quifi/static/css/main.2decfc67.chunk.css",
-    "main.js": "/quifi/static/js/main.da1f24d2.chunk.js",
-    "main.js.map": "/quifi/static/js/main.da1f24d2.chunk.js.map",
-    "runtime-main.js": "/quifi/static/js/runtime-main.12e30d61.js",
-    "runtime-main.js.map": "/quifi/static/js/runtime-main.12e30d61.js.map",
-    "static/js/2.3c255806.chunk.js": "/quifi/static/js/2.3c255806.chunk.js",
-    "static/js/2.3c255806.chunk.js.map": "/quifi/static/js/2.3c255806.chunk.js.map",
-    "static/js/3.d6cab500.chunk.js": "/quifi/static/js/3.d6cab500.chunk.js",
-    "static/js/3.d6cab500.chunk.js.map": "/quifi/static/js/3.d6cab500.chunk.js.map",
+    "main.js": "/quifi/static/js/main.309107d0.chunk.js",
+    "main.js.map": "/quifi/static/js/main.309107d0.chunk.js.map",
+    "runtime-main.js": "/quifi/static/js/runtime-main.983b953f.js",
+    "runtime-main.js.map": "/quifi/static/js/runtime-main.983b953f.js.map",
+    "static/js/2.cc71060b.chunk.js": "/quifi/static/js/2.cc71060b.chunk.js",
+    "static/js/2.cc71060b.chunk.js.map": "/quifi/static/js/2.cc71060b.chunk.js.map",
+    "static/js/3.b2be0a75.chunk.js": "/quifi/static/js/3.b2be0a75.chunk.js",
+    "static/js/3.b2be0a75.chunk.js.map": "/quifi/static/js/3.b2be0a75.chunk.js.map",
     "index.html": "/quifi/index.html",
     "static/css/main.2decfc67.chunk.css.map": "/quifi/static/css/main.2decfc67.chunk.css.map",
-    "static/js/2.3c255806.chunk.js.LICENSE.txt": "/quifi/static/js/2.3c255806.chunk.js.LICENSE.txt",
+    "static/js/2.cc71060b.chunk.js.LICENSE.txt": "/quifi/static/js/2.cc71060b.chunk.js.LICENSE.txt",
     "static/media/quifi.629db642.svg": "/quifi/static/media/quifi.629db642.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.12e30d61.js",
-    "static/js/2.3c255806.chunk.js",
+    "static/js/runtime-main.983b953f.js",
+    "static/js/2.cc71060b.chunk.js",
     "static/css/main.2decfc67.chunk.css",
-    "static/js/main.da1f24d2.chunk.js"
+    "static/js/main.309107d0.chunk.js"
   ]
 }
