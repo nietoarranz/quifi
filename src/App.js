@@ -1,25 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import { HashRouter, Route, Switch } from 'react-router-dom';
+
+import Cover from './components/pages/Cover';
+import Home from './components/pages/Home';
+import EuropeCapitals from './components/pages/capitals/EuropeCapitals';
+import { ThemeProvider } from '@material-ui/core';
+import React from 'react';
+import Theme from 'style/Theme';
+import { Provider } from 'react-redux'
+import store from './redux/store'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<React.StrictMode>
+			<HashRouter>
+
+				<Provider store={store}>
+					<ThemeProvider theme={Theme}>
+					<div>
+						<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+						{/*<Box m={3}>*/}
+						<Switch>
+							<Route
+								path="/index.html"
+								component={Cover} />
+							<Route
+								exact
+								path="/"
+								component={Cover} />
+							<Route
+								exact
+								path="/home"
+								component={Home} />
+							<Route
+								exact
+								path="/europecapitals"
+								component={EuropeCapitals} />
+						</Switch>
+						{/*</Box>*/}
+					</div>
+					</ThemeProvider>
+				</Provider>
+			</HashRouter>
+		</React.StrictMode>
+	);
 }
 
 export default App;
