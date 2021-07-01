@@ -21,7 +21,7 @@ const EuropeCapitals = () => {
     useEffect(() => {
 
         //var url = "http://localhost:8010/proxy/v3/region/europe";
-        var url = "https://restcountries.com/v3/region/europe";
+        var url = "https://cors.bridged.cc/https://restcountries.com/v3/region/europe";
         axios.get(url)
             .then(function (response) {
                 // handle success
@@ -79,7 +79,7 @@ const EuropeCapitals = () => {
             // @ts-ignore
             inputRef.current.focus();
 
-            if (currentCapital!== "" && currentCapital[0].toUpperCase() === currentCountry.capital[0].toUpperCase()){
+            if (currentCapital!== "" && currentCapital.toUpperCase() === currentCountry.capital[0].toUpperCase()){
                 console.log("Correct");
                 setTextResult("Correct");
                 setStreak(streak + 1);
